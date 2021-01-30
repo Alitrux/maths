@@ -18,7 +18,7 @@ def tracerFonction(f, a, b, points, width, couleur):
 		ordonnees.append(a+i/points)
 	plot(ordonnees, abcisses, linewidth = width, color = couleur)
 
-#Et oui, j'ai vraiment créer une fonction juste pour ça, j'avais prévenu que ce code était déguelasse
+#Et oui, j'ai vraiment créé une fonction juste pour ça, j'avais prévenu que ce code était déguelasse
 def tracerFonctionExp(f, a, b, points, width, couleur):
 	abcisses = []
 	ordonnees = []
